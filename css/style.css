@@ -146,7 +146,7 @@ main > section{
     padding-left: 26px;
 }
 .service-item{
-    max-width: 584px;
+    max-width: 100%;
     /* border: 1px solid saddlebrown; */
     padding: 15px;
     margin-bottom: 20px;
@@ -250,6 +250,7 @@ main > section{
     }
     .enjoy-container{
         grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
     }
     .sponsor-company{
         grid-template-columns: repeat(1, 1fr);
